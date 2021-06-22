@@ -1,0 +1,82 @@
+:root{
+    box-sizing: border-box;
+}
+*,
+::before,
+::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: #96e9eb;
+    color: #555555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #ffffff;
+    border-right: 30px solid #4585f7;
+    width: 500px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+.form{
+    padding: 30px 40px;
+}
+.form h4{
+    color: #4585f7;
+}
+.form label{
+    display: block;
+    margin: 10px 0;
+}
+.form input{
+    width: 100%;
+    padding: 5px;
+    background-color: #e6e6e6;
+    border: none;
+}
+.form input:focus{
+    outline: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.flex input[type = "checkbox"]{
+    width: 15px;
+    outline: none;
+}
+ .flex label{
+    display: inline;
+}
+.forgotPassword{
+    color: #4585f7;
+    cursor: pointer;
+    text-decoration: none;
+}
+button{
+    background-color: #4585f7;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+}
+button:hover{
+    background-color: grey;
+}
+
+
+@media (max-width: 600px){
+    .flex{
+        flex-direction: column;
+        margin: 10px 0 15px 0;
+    }
+}
