@@ -19,6 +19,7 @@ body{
 .container{
     background-color: #ffffff;
     border-right: 30px solid #4585f7;
+    border-radius: 5px;
     width: 500px;
     margin: 0 auto;
     max-width: 80%;
@@ -38,6 +39,7 @@ body{
     padding: 5px;
     background-color: #e6e6e6;
     border: none;
+    border-radius: 5px;
 }
 .form input:focus{
     outline: none;
@@ -54,6 +56,7 @@ body{
  .flex label{
     display: inline;
 }
+
 .forgotPassword{
     color: #4585f7;
     cursor: pointer;
@@ -78,5 +81,9 @@ button:hover{
     .flex{
         flex-direction: column;
         margin: 10px 0 15px 0;
+    }
+    .RememberMe{
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 }
